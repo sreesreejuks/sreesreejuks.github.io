@@ -1,6 +1,6 @@
 export const achievementsData = [
   {
-    logo: "public/prometheusGrafana.png",
+    logo: "/prometheusGrafana.png",
     title: "Prometheus Monitoring Setup",
     organization: "inTEUtion Technologies Pvt Ltd",
     date: "2024",
@@ -14,7 +14,7 @@ export const achievementsData = [
     ]
   },
   {
-    logo: "public/shell-script.png",
+    logo: "/shell-script.png",
     title: "Automated Backup System",
     organization: "inTEUtion Technologies Pvt Ltd",
     date: "2024",
