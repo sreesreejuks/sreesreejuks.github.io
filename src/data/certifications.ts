@@ -1,7 +1,7 @@
 export const certificationsData = {
   certifications: [
     {
-      logo: "public/rhce.webp",
+      logo: "/rhce.webp",
       name: "RedHat Certified Engineer (RHCE)",
       issuer: "Red Hat",
       date: "Aug 2014",
@@ -10,7 +10,7 @@ export const certificationsData = {
       skills: ["Red Hat Enterprise Linux", "System Administration", "Automation", "Security"]
     },
     {
-      logo: "public/aws.png",
+      logo: "/aws.png",
       name: "AWS Certified Cloud Practitioner",
       issuer: "Amazon Web Services",
       date: "Jul 2022",
@@ -21,7 +21,7 @@ export const certificationsData = {
   ],
   training: [
     {
-      logo: "public/kodekloud.webp",
+      logo: "/kodekloud.webp",
       name: "Basic Shell scripting",
       provider: "KodeKloud",
       instructor: "Mumshad Mannambeth",
@@ -29,7 +29,7 @@ export const certificationsData = {
       link: "https://kodekloud.com/courses/shell-scripts-for-beginners/"
     },
     {
-      logo: "public/udemy.png",
+      logo: "/udemy.png",
       name: "Complete Linux Training Course",
       provider: "Udemy",
       instructor: "Imran Afzal",
@@ -37,21 +37,21 @@ export const certificationsData = {
       link: "https://www.udemy.com/course/complete-linux-training/"
     },
     {
-      logo: "public/udemy.png",
+      logo: "/udemy.png",
       name: "Docker, From Zero To Hero: Become a DevOps Docker Master",
       provider: "Udemy",
       status: "Completed",
       link: "https://www.udemy.com/course/docker-from-zero-to-hero"
     },
     {
-      logo: "public/udemy.png",
+      logo: "/udemy.png",
       name: "Jenkins, From Zero To Hero: Become a DevOps Jenkins Master",
       provider: "Udemy",
       status: "Completed",
       link: "https://www.udemy.com/course/jenkins-from-zero-to-hero/"
     },
     {
-      logo: "public/udemy.png",
+      logo: "/udemy.png",
       name: "Ultimate Cloudflare Bootcamp",
       provider: "Udemy",
       instructor: "Elnur Valikhanli",
