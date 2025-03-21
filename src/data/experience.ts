@@ -72,7 +72,7 @@ export const experienceData = [
   {
     logo: "/cms.jpg",
     company: "CMS IT Services Ltd",
-    companyUrl: "https://www.kautilyaenterprises.com/",
+    companyUrl: "https://www.cmsitservices.com/",
     period: "June 2015 – October 2016",
     role: "Associate Technical Engineer",
     details: [
