@@ -15,8 +15,8 @@ export function Header({ name, age, nationality, email, website }: HeaderProps) 
       <div className="flex items-center gap-8 text-gray-600">
         <span>{age} years old, {nationality}</span>
         <a href={`mailto:${email}`} className="hover:text-blue-500">{email}</a>
-        <a href={website} className="text-blue-500 hover:text-blue-600" target="_blank" rel="noopener noreferrer">
-          {website.replace('https://', '')}
+        <a href={website.startsWith('http') ? website : `https://${website}`} className="text-blue-500 hover:text-blue-600" target="_blank" rel="noopener noreferrer">
+          {website.replace(/^https?:\/\//, '')}
         </a>
       </div>
     </div>
