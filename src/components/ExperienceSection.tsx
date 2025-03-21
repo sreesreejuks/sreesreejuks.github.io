@@ -32,7 +32,7 @@ export function ExperienceSection({ experiences }: ExperienceSectionProps) {
     <div className="mb-12">
       <div className="flex items-center gap-4 mb-8">
         <h2 className="text-2xl font-bold">Experience</h2>
-        <span className="text-gray-600">10+ years</span>
+        <span className="text-gray-600">8 years</span>
       </div>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
