@@ -1,6 +1,6 @@
 export const experienceData = [
   {
-    logo: "public/inteution.jpg",
+    logo: "/inteution.jpg",
     company: "InTEUtion Technologies",
     companyUrl: "https://inteution.com/",
     period: "June 2024 – August 2024",
@@ -15,7 +15,7 @@ export const experienceData = [
     skills: ["Digital Ocean", "Ubuntu", "Prometheus", "Grafana", "Bash Script", "Bit Bucket", "Jira", "MediaCMS"]
   },
   {
-    logo: "public/ccs-technologies.webp",
+    logo: "/ccs-technologies.webp",
     company: "CCS Technologies",
     companyUrl: "https://ccs-technologies.com/",
     period: "September 2021 – April 2024",
@@ -33,7 +33,7 @@ export const experienceData = [
     skills: ["AWS", "Ubuntu", "Jenkins", "GoDaddy", "Gitlab", "SonarQube", "Nexus", "SSL", "WordPress", "Moodle", "Jitsi & Jibri"]
   },
   {
-    logo: "public/stealthGuard.png",
+    logo: "/stealthGuard.png",
     company: "Stealth Guard Pvt Ltd",
     companyUrl: "https://www.sgdevelop.com/",
     period: "July 2019 – November 2020",
@@ -59,7 +59,7 @@ export const experienceData = [
     skills: ["Computer Sales", "Service", "PC", "Laptop", "Printers", "Network"]
   },
   {
-    logo: "public/inspirisys.png",
+    logo: "/inspirisys.png",
     company: "inspiriSYS Solutions",
     companyUrl: "https://www.inspirisys.com/",
     period: "December 2016 – January 2019",
@@ -70,7 +70,7 @@ export const experienceData = [
     skills: ["AMC Support", "Service", "PC", "Laptop", "Printers", "Network"]
   },
   {
-    logo: "public/cms.jpg",
+    logo: "/cms.jpg",
     company: "CMS IT Services Ltd",
     companyUrl: "https://www.kautilyaenterprises.com/",
     period: "June 2015 – October 2016",
