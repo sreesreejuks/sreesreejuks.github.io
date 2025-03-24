@@ -11,17 +11,17 @@ export const profileData = {
     
     apps: [
       {
-        icon: "/markdown.png",
-        name: "Markdown Explorer",
+        icon: "/projects.webp",
+        name: "MarkdownExplorer",
         link: "https://markdown.sreesreejuks.com/"
       },
       {
-        icon: "/markdown.png",
-        name: "Markdown Editor",
+        icon: "/projects.webp",
+        name: "MarkdownEditor",
         link: "https://editor.sreesreejuks.com"
       },
       {
-        icon: "/markdown.png",
+        icon: "/projects.webp",
         name: "TaskWidget",
         link: "https://taskwidget.app"
       }
