@@ -12,9 +12,9 @@ export const skillsData = [
     items: ["Jenkins", "GitLab CI", "GitHub Actions"]
   },
   {
-    title: "Scripting",
+    title: "Linux & Scripting",
     icon: Terminal,
-    items: ["Python", "Bash"]
+    items: ["Ubuntu", "CentOS", "Bash", "Python"]
   },
   {
     title: "Infrastructure as Code",
