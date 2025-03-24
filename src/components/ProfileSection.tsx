@@ -26,7 +26,7 @@ export function ProfileSection({ imageUrl, apps, interests }: ProfileSectionProp
       </div>
       
       <div className="bg-gray-50 rounded-3xl p-6">
-        <h2 className="text-xl font-semibold mb-4">App Store</h2>
+        <h2 className="text-xl font-semibold mb-4">Projects I work on</h2>
         <div className="flex flex-wrap gap-4">
           {apps.map((app, index) => (
             <div key={index} className="flex flex-col items-center">
