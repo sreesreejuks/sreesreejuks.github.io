@@ -48,7 +48,7 @@ export const experienceData = [
     skills: ["AWS", "CentOS", "Bash SCript", "Filezilla", "CloudWatch", "Gitlab", "Gitlab Runner"]
   },
   {
-    logo: "/company2.png",
+    logo: "/Kautilya.jpg",
     company: "Kautilya Enterprises",
     companyUrl: "https://www.kautilyaenterprises.com/",
     period: "February 2019 – July 2019",
