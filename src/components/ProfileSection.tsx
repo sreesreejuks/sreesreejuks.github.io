@@ -1,4 +1,3 @@
-
 interface AppCard {
   icon: string;
   name: string;
@@ -25,12 +24,12 @@ export function ProfileSection({ imageUrl, apps, interests }: ProfileSectionProp
       </div>
       
       <div className="bg-gray-50 rounded-3xl p-6">
-        <h2 className="text-xl font-semibold mb-4">Projects I work on</h2>
+        <h2 className="text-xl font-semibold mb-4 text-gray-900">Projects I work on</h2>
         <div className="flex flex-wrap gap-4">
           {apps.map((app, index) => (
             <div key={index} className="flex flex-col items-center">
               <img src={app.icon} alt={app.name} className="w-12 h-12 rounded-xl mb-2" />
-              <span className="text-sm">{app.name}</span>
+              <span className="text-sm text-gray-800">{app.name}</span>
               <a 
                 href={app.link}
                 target="_blank"
@@ -45,13 +44,13 @@ export function ProfileSection({ imageUrl, apps, interests }: ProfileSectionProp
       </div>
       
       <div className="bg-gray-50 rounded-3xl p-6">
-        <h2 className="text-xl font-semibold mb-4">Interests</h2>
+        <h2 className="text-xl font-semibold mb-4 text-gray-900">Interests</h2>
         <div className="grid grid-cols-2 gap-4">
           {interests.map((interest, index) => (
             <a
               key={index}
               href={interest.link}
-              className="flex items-center gap-2 hover:text-blue-500 transition-colors"
+              className="flex items-center gap-2 text-gray-800 hover:text-blue-500 transition-colors"
               target="_blank"
               rel="noopener noreferrer"
             >
