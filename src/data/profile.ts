@@ -11,17 +11,17 @@ export const profileData = {
     
     apps: [
       {
-        icon: "/markdown.svg",
+        icon: "/common.svg",
         name: "MarkdownExplorer",
         link: "https://markdown.sreesreejuks.com/"
       },
       {
-        icon: "/markdown.svg",
+        icon: "/common1.svg",
         name: "MarkdownEditor",
         link: "https://editor.sreesreejuks.com"
       },
       {
-        icon: "/typehere.svg",
+        icon: "/common2.svg",
         name: "TypeHere",
         link: "https://typeit.sreesreejuks.com"
       }
