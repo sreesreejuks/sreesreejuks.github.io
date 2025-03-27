@@ -21,9 +21,9 @@ export const profileData = {
         link: "https://editor.sreesreejuks.com"
       },
       {
-        icon: "/projects.webp",
-        name: "TaskWidget",
-        link: "https://taskwidget.app"
+        icon: "/typehere.svg",
+        name: "TypeHere",
+        link: "https://typeit.sreesreejuks.com"
       }
     ],
     interests: [
