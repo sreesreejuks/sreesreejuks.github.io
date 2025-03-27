@@ -15,15 +15,17 @@ export const profileData = {
         name: "MarkdownExplorer",
         link: "https://markdown.sreesreejuks.com/"
       },
+      
       {
         icon: "/common1.svg",
-        name: "MarkdownEditor",
-        link: "https://editor.sreesreejuks.com"
-      },
-      {
-        icon: "/common2.svg",
         name: "TypeHere",
         link: "https://typeit.sreesreejuks.com"
+      },
+
+      {
+        icon: "/common2.svg",
+        name: "MarkdownEditor",
+        link: "https://editor.sreesreejuks.com"
       }
     ],
     interests: [
