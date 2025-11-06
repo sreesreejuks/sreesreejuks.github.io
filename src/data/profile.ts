@@ -1,7 +1,7 @@
 export const profileData = {
   header: {
     name: "Sreeju KS",
-    age: 31,
+    age: 32,
     nationality: "Indian",
     email: "mail@sreesreejuks.com",
     website: "sreesreejuks.com"
