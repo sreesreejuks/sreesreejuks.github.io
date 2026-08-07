@@ -1,7 +1,11 @@
+import { calculateAge } from '../utils/date';
+
+const DATE_OF_BIRTH = '1993-10-31';
+
 export const profileData = {
   header: {
     name: "Sreeju KS",
-    age: 32,
+    age: calculateAge(DATE_OF_BIRTH),
     nationality: "Indian",
     email: "mail@sreesreejuks.com",
     website: "sreesreejuks.com"
